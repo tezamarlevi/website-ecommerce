@@ -16,6 +16,4 @@ app.use(express.json());
 app.use("/api/notes", noteRoutes);
 
 app.listen(PORT, () => {
-    console.log("Server started on PORT:", PORT);
-});
-
+    console
